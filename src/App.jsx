@@ -9,6 +9,7 @@ import Intro from './components/Intro'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ProjectsCard from './components/ProjectsCard'
+import Get from './components/Get/Get'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Faq />
       <Contact />
       <Footer />
+      {/* <Get /> */}
     </div>
   )
 }
